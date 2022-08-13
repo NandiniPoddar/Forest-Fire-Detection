@@ -5,11 +5,11 @@ A wildfire, forest fire, bushfire, wild-land fire or rural fire is an unplanned,
 The Device helps in detecting the fire in its initial stages to avoid catastrophic damage and intimidate the authorities at the earliest.
 ##### [Click](https://drive.google.com/file/d/1biDBTwWqfK0Ubjh_4VI0WeSi-aqg2-dI/view?usp=sharing) here to watch the video.
 ## Major Components
-- MQ138 sensor
+- MQ135 sensor
 - DHT11 Sensor
 - Flame Sensor
 - Arduino Uno
-- SIM 808 Module
+- SIM 808 GSM/GPRS Module
 
 The sensors sense the environment and measure the concentration of CO2, Temperature, Humidity. If the Flame sensor is activated, then these 3 parameters are used to calculate the intensity and take appropriate action.
 ## Formula Proposed
@@ -27,4 +27,4 @@ where, k = 5.397 x 10^-3 ( RH per ppm per degree)
 - Download the repository.
 - Install Arduino IDE. 
 - Integrate the hardware.
-- Connect the device to the system an run the code.
+- Connect the device to the system and run the code.
